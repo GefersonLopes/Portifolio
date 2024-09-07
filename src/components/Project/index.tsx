@@ -9,7 +9,7 @@ import {
 
 import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
-import { FaGithub, FaShare } from "react-icons/fa";
+import { FaGit, FaGithub, FaShare } from "react-icons/fa";
 import { SiCodeproject } from "react-icons/si";
 import { userData } from "@/utils/userData";
 
@@ -52,7 +52,7 @@ export const Project = (): JSX.Element => {
               css={{ marginBottom: "$3" }}
               color="grey4"
             >
-              <SiCodeproject /> {repository.name}
+              <FaGit /> : {repository.name}
             </ProjectTitle>
 
             <ProjectStack>

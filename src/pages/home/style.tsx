@@ -107,6 +107,7 @@ export const ProjectsAreaSocialMediaMessage = styled("div", {
   display: "flex",
   flexDirection: "column",
   gap: "2rem",
+  width: "100%",
 
   "@mobile": {
     width: "100%",

@@ -1,5 +1,5 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript, SiNestjs, SiDjango, SiAmazonaws, SiStyledcomponents, SiCsharp, SiBootstrap, SiMongodb, SiSwagger, SiFigma, SiPhp, SiFastapi, SiFlask, SiMysql, SiSpringboot, SiAzuredevops, SiGraphql, SiSass } from "react-icons/si";
+import { SiPostgresql, SiTypescript, SiNestjs, SiDjango, SiAmazonaws, SiStyledcomponents, SiBootstrap, SiMongodb, SiFastapi, SiFlask, SiMysql, SiSpringboot, SiAzuredevops, SiGraphql, SiSass, SiGoland, SiExpress, SiRedux, SiFigma } from "react-icons/si";
 import { FaGit, FaPython, FaDocker, FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact, FaJava, FaAws, FaAngular, FaJira, FaLinux } from "react-icons/fa";
 
 export const stackData = [
@@ -7,13 +7,14 @@ export const stackData = [
     { title: "AWS EC2 & S2", img: FaAws },
     { title: "Azure DevOps", img: SiAzuredevops },
     { title: "Bootstrap", img: SiBootstrap },
-    { title: "C#", img: SiCsharp },
     { title: "CSS", img: FaCss3Alt },
     { title: "Django", img: SiDjango },
     { title: "Docker", img: FaDocker },
+    { title: "Express.js", img: SiExpress },
     { title: "FastAPI", img: SiFastapi },
     { title: "Figma", img: SiFigma },
     { title: "Git", img: FaGit },
+    { title: "Golang", img: SiGoland },
     { title: "GraphQL", img: SiGraphql },
     { title: "HTML", img: FaHtml5 },
     { title: "Jira", img: FaJira },
@@ -23,14 +24,13 @@ export const stackData = [
     { title: "MySQL", img: SiMysql },
     { title: "Nest.js", img: SiNestjs },
     { title: "Next.js", img: TbBrandNextjs },
-    { title: "Node JS", img: FaNode },
-    { title: "PHP", img: SiPhp },
+    { title: "Node.js", img: FaNode },
     { title: "PostgreSQL", img: SiPostgresql },
     { title: "Python", img: FaPython },
     { title: "React", img: FaReact },
+    { title: "Redux", img: SiRedux },
     { title: "Sass", img: SiSass },
     { title: "Spring Boot", img: SiSpringboot },
     { title: "Styled-Components", img: SiStyledcomponents },
-    { title: "Swagger", img: SiSwagger },
     { title: "TypeScript", img: SiTypescript },
 ];
