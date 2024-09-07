@@ -1,92 +1,36 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript } from "react-icons/si";
-import { FaGit, FaPython } from "react-icons/fa";
-import {
-    SiMongodb,
-    SiSwagger,
-    SiFigma,
-    SiPhp,
-    SiDjango,
-    SiNestjs,
-    SiAmazonaws,
-    SiStyledcomponents,
-    SiCsharp,
-    SiBootstrap,
-} from "react-icons/si";
-import {
-    FaDocker,
-    FaHtml5,
-    FaCss3Alt,
-    FaJs,
-    FaNode,
-    FaReact,
-} from "react-icons/fa";
+import { SiPostgresql, SiTypescript, SiNestjs, SiDjango, SiAmazonaws, SiStyledcomponents, SiCsharp, SiBootstrap, SiMongodb, SiSwagger, SiFigma, SiPhp, SiFastapi, SiFlask, SiMysql, SiSpringboot, SiAzuredevops, SiGraphql, SiSass } from "react-icons/si";
+import { FaGit, FaPython, FaDocker, FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact, FaJava, FaAws, FaAngular, FaJira, FaLinux } from "react-icons/fa";
 
 export const stackData = [
-    {
-        title: "HTML",
-        img: FaHtml5,
-    },
-    {
-        title: "CSS",
-        img: FaCss3Alt,
-    },
-    {
-        title: "JS",
-        img: FaJs,
-    },
-    { title: "TypeScript", img: SiTypescript },
-    {
-        title: "Node JS",
-        img: FaNode,
-    },
-    {
-        title: "React",
-        img: FaReact,
-    },
-    { title: "Next.js", img: TbBrandNextjs },
+    { title: "Angular", img: FaAngular },
+    { title: "AWS EC2 & S2", img: FaAws },
+    { title: "Azure DevOps", img: SiAzuredevops },
+    { title: "Bootstrap", img: SiBootstrap },
+    { title: "C#", img: SiCsharp },
+    { title: "CSS", img: FaCss3Alt },
+    { title: "Django", img: SiDjango },
     { title: "Docker", img: FaDocker },
-    { title: "PostgreSQL", img: SiPostgresql },
+    { title: "FastAPI", img: SiFastapi },
+    { title: "Figma", img: SiFigma },
     { title: "Git", img: FaGit },
+    { title: "GraphQL", img: SiGraphql },
+    { title: "HTML", img: FaHtml5 },
+    { title: "Jira", img: FaJira },
+    { title: "JS", img: FaJs },
+    { title: "Linux", img: FaLinux },
+    { title: "MongoDB", img: SiMongodb },
+    { title: "MySQL", img: SiMysql },
+    { title: "Nest.js", img: SiNestjs },
+    { title: "Next.js", img: TbBrandNextjs },
+    { title: "Node JS", img: FaNode },
+    { title: "PHP", img: SiPhp },
+    { title: "PostgreSQL", img: SiPostgresql },
     { title: "Python", img: FaPython },
-    {
-        title: "MongoDB",
-        img: SiMongodb,
-    },
-    {
-        title: "Swagger",
-        img: SiSwagger,
-    },
-    {
-        title: "Figma",
-        img: SiFigma,
-    },
-    {
-        title: "PHP",
-        img: SiPhp,
-    },
-    {
-        title: "Django",
-        img: SiDjango,
-    },
-    {
-        title: "Nest.js",
-        img: SiNestjs,
-    },
-    {
-        title: "Amazon Web Service EC2",
-        img: SiAmazonaws,
-    },
-    {
-        title: "Styled-Components",
-        img: SiStyledcomponents,
-    },
-    {
-        title: "C#",
-        img: SiCsharp,
-    },
-    {
-        title: "Bootstrap",
-        img: SiBootstrap,
-    },
+    { title: "React", img: FaReact },
+    { title: "Sass", img: SiSass },
+    { title: "Spring Boot", img: SiSpringboot },
+    { title: "Styled-Components", img: SiStyledcomponents },
+    { title: "Swagger", img: SiSwagger },
+    { title: "TypeScript", img: SiTypescript },
 ];

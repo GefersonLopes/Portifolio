@@ -3,18 +3,12 @@ import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
 import { css } from "@stitches/react";
 
-import iBackground from "@/public/static/img/background/eu.jpg";
-import backgroundImg from "@/public/static/img/background/header-bg.svg";
-
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
   backgroundColor: "$grey1",
   padding: "12rem 0 8rem 0",
-  backgroundImage: `url(${iBackground})`,
-  backgroundRepeat: "no-repeat",
   backgroundPosition: "right",
-  backgroundAttachment: "fixed",
   borderBottom: "2px solid $grey5",
   "@tablet": {
     backgroundPosition: "right -10% center",
@@ -29,17 +23,12 @@ export const Header = styled("header", {
 });
 
 export const HeaderContent = styled("div", {
-  maxWidth: "100%",
-  width: "36rem",
+  width: "100%",
   display: "flex",
   flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
   gap: "$2",
-  "@tablet": {
-    width: "36rem",
-  },
-  "@mobile": {
-    width: "100%",
-  },
 });
 
 export const HeaderButtonsArea = styled(Flex, {
@@ -79,6 +68,7 @@ export const StackSection = styled("div", {
 });
 
 export const StackCards = styled("div", {
+  width: "100%",
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr 1fr",
   padding: "3rem 0",
